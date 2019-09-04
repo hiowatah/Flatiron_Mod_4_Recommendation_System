@@ -9,7 +9,7 @@ For this project, we set out to help adults in expanding their whiskey palette t
 </p>
 
 
-As you see above, we ask the end-user to input how many recommendations they would like as well as their budget. We then ask them to rate 5 whiskies that fall within their budget. If the user has not tasted the whiskey before, we provide a URL for them to go to the whiskeybase site for additional information to make an educated case. We also give the user an option for a new whiskey to rate by pressing 'n'. 
+As you see above, we ask the end-user to input how many recommendations they would like as well as their budget. We then ask them to rate 5 whiskies that fall within their budget. If the user has not tasted the whiskey before, we provide a URL for them to go to the whiskeybase site for additional information to make an educated guess. We also give the user an option for a new whiskey to rate by pressing 'n'. This ensures that our data will remain accurate as our entire recommender system will falter if users begin to give incorrect ratings to whiskeys. This is because of the assumption of a collaborative recommender where 2 users that like similar products can be recommended items one has tried that the other has not.
 
 Once the user has reviewed 5 whiskies, we refit our model to include their preferences and output the number of recommendations they requested based on how closely their ratings matched other users in our database.
 
